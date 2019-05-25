@@ -124,6 +124,10 @@ class Game:
             self.clear_screen()
             print("\nGoodbye! Thank you for playing!")
             self.play_game = False
+        else:
+            self.clear_screen()
+            print("\nI don't understand that! Goodbye! Thank you for playing!")
+            self.play_game = False
 
     @staticmethod
     def clear_screen():
