@@ -7,7 +7,14 @@ from phrasehunter.phrase import Phrase
 
 class Game:
 
-    phrase_bank = ["Food Drive"]
+    phrase_bank = ["Acura", "Alfa Romeo", "Aston Martin", "Audi", "Bentley", "BMW",
+                   "Bugatti", "Buick", "Cadillac", "Chevrolet", "Chrysler", "Dodge",
+                   "Ferrari", "Fiat", "Fisker", "Ford", "GMC", "Honda", "Hummer",
+                   "Hyundai", "Infiniti", "Jaguar", "Jeep", "Kia", "Koenigsegg",
+                   "Lamborghini", "Land Rover", "Lexus", "Lincoln", "Lotus", "Maserati"
+                   "Maybach", "Mazda", "McLaren", "Mercedes Benz", "Mini", "Mitsubishi",
+                   "Nissan", "Porsche", "Rolls Royce", "Spyker", "Subaru", "Tesla",
+                   "Toyota", "Volkswagen", "Volvo"]
     active_phrase = []
     correct_answers = []
     player_answers = []
